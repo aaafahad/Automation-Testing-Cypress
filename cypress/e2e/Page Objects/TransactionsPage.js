@@ -9,7 +9,7 @@ class transactions
         
     }
 
-    ClickOnAddTransactionsBtn()
+    ClickOnAddTransactionsBtn() 
     {
         cy.xpath("//button[normalize-space()='Add Transaction']").should('be.visible').click({force: true});  //AddTransactions btn
         

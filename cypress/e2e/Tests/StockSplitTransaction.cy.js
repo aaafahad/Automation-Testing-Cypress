@@ -18,7 +18,7 @@ describe('Investment List POM' , () =>{
             HomePage.SetPassword(data.password);
             HomePage.ClickLogIn()
             HomePage.VerifyLogIn()
-            Page.Wait() 
+            Page.Wait()  
 
 
         })
